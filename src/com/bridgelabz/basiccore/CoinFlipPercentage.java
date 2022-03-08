@@ -24,8 +24,8 @@ public class CoinFlipPercentage {
             System.out.println("Tails : " + tails);
 
             //CALCULATE PERCENTAGE
-            float headsPercentage = heads * 100 / n;
-            float tailsPercentage = tails * 100 / n;
+            float headsPercentage = heads * 100 / numFlip;
+            float tailsPercentage = tails * 100 / numFlip;
             System.out.println("Percentage of Heads : " +headsPercentage);
             System.out.println("Percentage of Tails : " +tailsPercentage);
         }
